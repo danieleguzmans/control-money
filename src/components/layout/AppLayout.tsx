@@ -1,0 +1,1 @@
+import { Outlet } from 'react-router-dom';\nimport { Navbar } from './Navbar';\n\nexport function AppLayout() {\n  return (\n    <div className="flex min-h-screen flex-col">\n      <Navbar />\n      <main className="flex-1 bg-background">\n        <Outlet />\n      </main>\n    </div>\n  );\n}\n

@@ -1,0 +1,1 @@
+export default function Dashboard() {\n  return (\n    <div className="p-6">\n      <h2 className="mb-4 text-2xl font-semibold">Dashboard</h2>\n      <p className="text-sm text-muted-foreground">\n        Próximamente: gráficos de ingresos vs egresos, saldo y distribución.\n      </p>\n    </div>\n  );\n}\n
